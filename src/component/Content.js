@@ -9,7 +9,7 @@ const Content = () => {
       />
       <div className="text">
         <h1>Presidential Initiative</h1>
-        <h4>for Artificial Intelligence & Computing (PIAIC)</h4>
+        <h5>for Artificial Intelligence & Computing (PIAIC)</h5>
         <p>
           The mission of PIAIC is to reshape Pakistan by revolutionizing
           education, research, and business by adopting latest, cutting-edge

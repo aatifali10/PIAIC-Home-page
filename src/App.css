@@ -33,20 +33,23 @@ img {
 /* Content  */
 .content {
   display: flex;
+  height: 85vh;
   background-color: rgb(232, 234, 236);
 }
 .content > img {
   height: 80vh;
+  margin-left: 70px;
   object-fit: cover;
 }
 .text {
-  margin: 100px 100px;
+  margin: 100px 40px 20px 100px;
 }
 h1 {
   font-size: 50px;
 }
-h4 {
-  margin-top: 15px;
+.text h5 {
+  color: black;
+  margin: 30px 0px;
   font-size: 20px;
 }
 p {
@@ -60,11 +63,10 @@ button {
     rgb(46, 141, 97),
     rgb(47, 196, 163)
   );
-  /* background-color: #1bd1e9; */
   width: 10%;
   height: 5vh;
   border-radius: 8px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 500px;
   border: 1px solid white;
 }
@@ -83,64 +85,95 @@ button {
 }
 
 /* Card */
-.cards {
+
+.card {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 0px 30px;
+  /* background-color: aqua; */
   height: 20vh;
 }
-.card {
-  background-color: #e5eff0;
-  width: 250vw;
-  border: 1px solid white;
-  margin: -35px 20px 20px 20px;
+.blue {
+  background-color: rgb(10, 10, 128);
+  height: 3.5vh;
 }
-.card > span {
-  height: 5vh;
-  background-color: blueviolet;
+.Pink {
+  background-color: rgb(241, 7, 151);
+  height: 3.5vh;
 }
-h6 {
-  color: rgb(37, 36, 36);
-  font-size: 20px;
+.yello {
+  background-color: rgb(248, 226, 23);
+  height: 3.5vh;
+}
+.green {
+  background-color: rgb(9, 172, 150);
+  height: 3.5vh;
+}
+.AI {
+  height: 20vh;
+  width: 20vw;
+  border: 1px solid black;
   text-align: center;
-  margin-top: 80px;
+  margin: -30px;
+}
+
+.cloud {
+  height: 20vh;
+  width: 20vw;
+  border: 1px solid black;
+  text-align: center;
+  margin: -30px;
+}
+.blockchain {
+  height: 20vh;
+  width: 20vw;
+  border: 1px solid black;
+  text-align: center;
+  margin: -30px;
+}
+.human-things {
+  height: 20vh;
+  width: 20vw;
+  border: 1px solid black;
+  text-align: center;
+  margin: -30px;
+}
+h4 {
+  font-size: 15px;
+  text-align: center;
+  padding: 60px;
 }
 
 /* Carousel */
-.margin {
-  margin-bottom: -65px;
-  margin-left: 30px;
-}
-.coursel {
+.main-slide {
+  width: 200vw;
   display: flex;
-  background-color: #18d4cb;
-  height: 80vh;
-  width: 100vw;
-  overflow: hidden;
-  gap: 12rem;
 }
 .slider {
   display: flex;
+  justify-content: space-between;
+  background-color: #0a5358;
 }
-.slider .text {
-  width: 40vw;
+.slider img {
+  width: 50vw;
+  height: 40vh;
+  object-fit: cover;
 }
-.img {
+.slide {
   display: flex;
-  margin-top: 100px;
+  width: 50vw;
 }
-.text {
-  width: 100%;
-}
-
-.text h1 {
+.slide h6 {
   font-size: 20px;
+  margin-right: 900px;
+  margin-top: 50px;
+  color: white;
 }
-.text h2 {
-  font-size: 20px;
-  text-align: justify;
+.slider p {
+  margin-right: 650px;
 }
-
 /* Stratgeic partners */
+
 .Part {
   height: 30vh;
   text-align: center;
