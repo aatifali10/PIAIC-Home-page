@@ -88,9 +88,8 @@ button {
 
 .card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 0px 30px;
-  /* background-color: aqua; */
   height: 20vh;
 }
 .blue {
@@ -110,45 +109,101 @@ button {
   height: 3.5vh;
 }
 .AI {
-  height: 20vh;
-  width: 20vw;
-  border: 1px solid black;
+  max-height: 20vh;
+  max-width: 20vw;
+  border: 1px solid rgb(233, 228, 228);
   text-align: center;
   margin: -30px;
+}
+.AI h4 {
+  color: rgb(10, 10, 128);
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+.AI p {
+  color: white;
+  margin: 20px;
+}
+.AI:hover {
+  background-color: rgb(10, 10, 128);
+}
+.AI:hover h4 {
+  color: white;
 }
 
 .cloud {
-  height: 20vh;
-  width: 20vw;
-  border: 1px solid black;
+  max-height: 20vh;
+  max-width: 20vw;
+  border: 1px solid rgb(233, 228, 228);
   text-align: center;
   margin: -30px;
 }
-.blockchain {
-  height: 20vh;
-  width: 20vw;
-  border: 1px solid black;
-  text-align: center;
-  margin: -30px;
-}
-.human-things {
-  height: 20vh;
-  width: 20vw;
-  border: 1px solid black;
-  text-align: center;
-  margin: -30px;
-}
-h4 {
+.cloud h4 {
+  color: rgb(241, 7, 151);
   font-size: 15px;
   text-align: center;
-  padding: 60px;
+  padding-top: 20px;
+}
+.cloud p {
+  color: white;
+  margin: 20px;
+}
+.cloud:hover {
+  background-color: rgb(241, 7, 151);
+}
+.cloud:hover h4 {
+  color: white;
+}
+.blockchain {
+  max-height: 20vh;
+  max-width: 20vw;
+  border: 1px solid rgb(233, 228, 228);
+  text-align: center;
+  margin: -30px;
+}
+.blockchain h4 {
+  color: rgb(248, 226, 23);
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+.blockchain p {
+  color: white;
+  margin: 20px;
+}
+.blockchain:hover {
+  background-color: rgb(248, 226, 23);
+}
+.blockchain:hover h4 {
+  color: white;
+}
+.human-things {
+  max-height: 20vh;
+  max-width: 20vw;
+  border: 1px solid rgb(233, 228, 228);
+  text-align: center;
+  margin: -30px;
+}
+.human-things:hover {
+  background-color: rgb(9, 172, 150);
+}
+.human-things:hover h4 {
+  color: white;
+}
+.human-things h4 {
+  color: rgb(9, 172, 150);
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+.human-things p {
+  color: white;
+  margin: 20px;
 }
 
 /* Carousel */
-.main-slide {
-  width: 200vw;
-  display: flex;
-}
+
 .slider {
   display: flex;
   justify-content: space-between;
