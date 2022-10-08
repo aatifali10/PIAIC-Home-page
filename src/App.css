@@ -1,3 +1,6 @@
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -93,19 +96,23 @@ section.hero > img {
   color: black;
   font-size: 10px;
 }
-/* Aatif code */
 
 /* Card */
-
 .card-container {
+  width: 90vw;
+  margin: auto;
   display: flex;
   justify-content: space-around;
+  gap: 50px 20px;
+  margin-top: -65px;
+  margin-bottom: 100px;
 }
 .card {
   max-height: 300px;
-  max-width: 300px;
+  max-width: 500px;
   box-shadow: 2px 3px 10px 0 rgb(0 0 0 / 16%);
   text-align: center;
+  background-color: #fff;
   border-radius: 5px;
 }
 .card > h4 {
@@ -172,29 +179,25 @@ section.hero > img {
 
 /* Carousel */
 
-.slider {
+.event {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   background-color: #0a5358;
 }
-.slider img {
-  /* width: 50vw; */
-  height: 40vh;
+.event img {
+  min-width: 35rem;
   object-fit: cover;
 }
-.slide {
-  display: flex;
-  width: 50vw;
+.event-content {
+  margin: 0 5rem;
 }
-.slide h6 {
+.event-content h6 {
   font-size: 20px;
-  margin-right: 900px;
-  margin-top: 50px;
   color: white;
+  margin-bottom: 1rem;
 }
-.slider p {
-  margin-right: 650px;
-}
+
+/* Aatif code */
 /* Stratgeic partners */
 
 .Part {

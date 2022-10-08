@@ -11,10 +11,10 @@ function App() {
     <>
       <Navbar />
       <Content />
-      {/* 
+      <Card />
       <Carousel />
       <Partner />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

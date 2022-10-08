@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 
 const Content = () => {
   return (
@@ -31,9 +30,6 @@ const Content = () => {
             </div>
           </div>
         </section>
-      </div>
-      <div className="tech-cards">
-        <Card />
       </div>
     </div>
   );
