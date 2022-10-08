@@ -11,7 +11,6 @@ function App() {
     <>
       <Navbar />
       <Content />
-      <Card />
       {/* 
       <Carousel />
       <Partner />

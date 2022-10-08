@@ -83,136 +83,91 @@ section.hero > img {
   border-radius: 8px;
   border: 1px solid white;
 }
-
-/* Aatif code */
-
-.app {
+.hero-content .app {
   font-size: 40px;
   font-weight: bold;
   color: black;
 }
-.app > span {
+.hero-content .app > span {
   display: block;
   color: black;
   font-size: 10px;
 }
+/* Aatif code */
 
 /* Card */
 
-.card {
+.card-container {
   display: flex;
   justify-content: space-around;
-  margin: 0px 30px;
-  height: 20vh;
 }
-.blue {
-  background-color: rgb(10, 10, 128);
-  height: 3.5vh;
-}
-.Pink {
-  background-color: rgb(241, 7, 151);
-  height: 3.5vh;
-}
-.yello {
-  background-color: rgb(248, 226, 23);
-  height: 3.5vh;
-}
-.green {
-  background-color: rgb(9, 172, 150);
-  height: 3.5vh;
-}
-.AI {
-  max-height: 20vh;
-  max-width: 20vw;
-  border: 1px solid rgb(233, 228, 228);
+.card {
+  max-height: 300px;
+  max-width: 300px;
+  box-shadow: 2px 3px 10px 0 rgb(0 0 0 / 16%);
   text-align: center;
-  margin: -30px;
+  border-radius: 5px;
 }
-.AI h4 {
-  color: rgb(10, 10, 128);
+.card > h4 {
   font-size: 15px;
-  text-align: center;
   padding-top: 20px;
 }
-.AI p {
+.card > p {
   color: white;
   margin: 20px;
 }
+.AI {
+  border-top: 40px solid #12232f;
+}
+.AI h4 {
+  color: #12232f;
+}
 .AI:hover {
-  background-color: rgb(10, 10, 128);
+  background-color: #12232f;
 }
 .AI:hover h4 {
   color: white;
 }
 
 .cloud {
-  max-height: 20vh;
-  max-width: 20vw;
-  border: 1px solid rgb(233, 228, 228);
-  text-align: center;
-  margin: -30px;
+  border-top: 40px solid #e1006a;
 }
+
 .cloud h4 {
-  color: rgb(241, 7, 151);
-  font-size: 15px;
-  text-align: center;
-  padding-top: 20px;
+  color: #e1006a;
 }
-.cloud p {
-  color: white;
-  margin: 20px;
-}
+
 .cloud:hover {
-  background-color: rgb(241, 7, 151);
+  background-color: #e1006a;
 }
 .cloud:hover h4 {
   color: white;
 }
 .blockchain {
-  max-height: 20vh;
-  max-width: 20vw;
-  border: 1px solid rgb(233, 228, 228);
-  text-align: center;
-  margin: -30px;
+  border-top: 40px solid #fbc314;
 }
 .blockchain h4 {
-  color: rgb(248, 226, 23);
-  font-size: 15px;
-  text-align: center;
-  padding-top: 20px;
+  color: #fbc314;
 }
-.blockchain p {
-  color: white;
-  margin: 20px;
-}
+
 .blockchain:hover {
-  background-color: rgb(248, 226, 23);
+  background-color: #fbc314;
 }
+
 .blockchain:hover h4 {
   color: white;
 }
 .human-things {
-  max-height: 20vh;
-  max-width: 20vw;
-  border: 1px solid rgb(233, 228, 228);
-  text-align: center;
-  margin: -30px;
+  border-top: 40px solid #1b8f8b;
 }
 .human-things:hover {
-  background-color: rgb(9, 172, 150);
+  background-color: #1b8f8b;
 }
 .human-things:hover h4 {
   color: white;
 }
 .human-things h4 {
-  color: rgb(9, 172, 150);
-  font-size: 15px;
-  text-align: center;
-  padding-top: 20px;
-}
-.human-things p {
-  color: white;
-  margin: 20px;
+  color: #1b8f8b;
 }
 
 /* Carousel */
