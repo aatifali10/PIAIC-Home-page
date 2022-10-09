@@ -1,37 +1,40 @@
+const cardDetails = [
+  {
+    header: "Artificial Intelligence",
+    descritpion:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iusto.",
+    cardClass: "AI",
+  },
+  {
+    header: "Cloud Native and mobile Web",
+    descritpion:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iusto.",
+    cardClass: "cloud",
+  },
+  {
+    header: "Blockchain",
+    descritpion:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iusto.",
+    cardClass: "blockchain",
+  },
+  {
+    header: "Internet of Things and AI",
+    descritpion:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iusto.",
+    cardClass: "human-things",
+  },
+];
+
 const Card = () => {
   return (
     <>
       <div className="card-container">
-        <div className="card AI ">
-          <h4>Artificial Intelligence</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            iusto.
-          </p>
-        </div>
-        <div className="card cloud">
-          <h4>Cloud Native and mobile Web</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            iusto.
-          </p>
-        </div>
-        <div className="card blockchain">
-          <div className="yello"></div>
-          <h4>Blockchain</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            iusto.
-          </p>
-        </div>
-        <div className="card human-things">
-          <div className="green"></div>
-          <h4>Internet of Things and AI</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            iusto.
-          </p>
-        </div>
+        {cardDetails.map(({ cardClass, header, descritpion }) => (
+          <div className={`card ${cardClass}`} key={cardClass}>
+            <h4>{header}</h4>
+            <p>{descritpion}</p>
+          </div>
+        ))}
       </div>
     </>
   );

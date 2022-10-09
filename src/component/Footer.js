@@ -1,4 +1,6 @@
 import React from "react";
+import { BsFillTelephoneFill, BsFacebook } from "react-icons/bs";
+import { AiFillYoutube } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -24,16 +26,22 @@ const Footer = () => {
           <h5>Locations</h5>
           <h3>PIAIC Helpline</h3>
 
-          <span>+92-308-2220203 (Whatsapp as well)</span>
+          <span>
+            <BsFillTelephoneFill
+              style={{
+                color: "#00bf9a",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
+            />
+            +92-308-2220203 (Whatsapp as well)
+          </span>
           <h2>Connect with us</h2>
+          <BsFacebook
+            style={{ color: "#00bf9a", fontSize: "30px", marginRight: "10px" }}
+          />
+          <AiFillYoutube style={{ color: "#00bf9a", fontSize: "35px" }} />
         </div>
-      </div>
-      <div className="footer-logo">
-        <h3>Powered by</h3>
-        <img
-          src="https://www.piaic.org/static/media/panacloudfootericon.130c4779.png"
-          alt=""
-        />
       </div>
     </>
   );

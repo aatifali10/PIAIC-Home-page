@@ -39,6 +39,10 @@ html {
 .hero-background {
   height: 80vh;
   background-color: rgb(232, 234, 236);
+  background-image: url("./images//hero-bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 section.hero {
   display: flex;
@@ -182,7 +186,8 @@ section.hero > img {
 .event {
   display: flex;
   align-items: center;
-  background-color: #0a5358;
+  height: 70vh;
+  background-color: #00bf9a;
 }
 .event img {
   min-width: 35rem;
@@ -205,13 +210,11 @@ section.hero > img {
   text-align: center;
   margin: 20px 0px;
 }
-.companies {
-  display: flex;
-  margin-left: 400px;
-  margin-top: 20px;
-  gap: 5rem;
+.Part h1 {
+  font-size: 50px;
+  padding: 15px;
 }
-.companies > img {
+.Part img {
   text-align: center;
   height: 8vh;
 }
@@ -224,7 +227,7 @@ section.hero > img {
 .navigation {
   margin: 30px 130px;
 }
-h5 {
+.footer h5 {
   color: rgb(226, 221, 221);
   font-size: 20px;
   margin-bottom: 15px;
@@ -251,17 +254,4 @@ h2 {
 span {
   color: rgb(29, 28, 28);
   margin-left: 25px;
-}
-.footer-logo {
-  background-color: rgb(36, 49, 58);
-  height: 8vh;
-}
-.footer-logo > h3 {
-  padding: 10px;
-  margin-left: 90%;
-  margin-bottom: -30px;
-}
-.footer-logo > img {
-  height: 50%;
-  margin-left: 92%;
 }
