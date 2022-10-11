@@ -43,6 +43,13 @@ const Footer = () => {
           <AiFillYoutube style={{ color: "#00bf9a", fontSize: "35px" }} />
         </div>
       </div>
+      <div className="footer-logo">
+        <h3>Powered by</h3>
+        <img
+          src="https://www.piaic.org/static/media/panacloudfootericon.130c4779.png"
+          alt=""
+        />
+      </div>
     </>
   );
 };
